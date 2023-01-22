@@ -9,17 +9,12 @@ with st.sidebar:
         st.subheader ('Putri Meilani Syam')
         st.subheader ('Syahri Safitra Kelimutu')
         st.subheader ('Syahrizal Tri Rahadian')
-    with st.form (key = "my_form"):
-        email = st.text_input ("Email")
-        kritik = st.text_input ("Masukkan Kritik Anda")
-        saran = st.text_input ("Masukkan Saran Anda")
-        submit = st.form_submit_button ("Submit")
-        
+           
 tab1, tab2 = st.tabs(["Home", "Menu"])
 
 with tab1:
     from PIL import Image
-    image = Image.open ('Logo.jpeg')
+    image = Image.open ('g.math.jpeg')
     st.image (image, caption='Math App by Syahri')
     
     st.title ('Selamat Datang di G.Math')
@@ -96,7 +91,7 @@ with tab2:
                 st.snow()
     
     elif (option == 'Prisma'):
-        st.title ('Prisma')
+        st.image ('Prisma.jpeg')
         option = st.selectbox("Pilih",("Luas","Volume"))
     
         if (option == "Luas"):
@@ -157,7 +152,7 @@ with tab2:
                 st.snow()
 
     elif (option == 'Tabung'):
-        st.title ('Tabung')
+        st.image ('Tabung.jpeg')
         option = st.selectbox("Pilih",("Luas","Volume"))      
             
         if (option == "Luas"):
@@ -188,7 +183,7 @@ with tab2:
                 st.snow()
     
     elif (option == 'Kerucut'):
-        st.title ('Kerucut')
+        st.image ('Kerucut.jpeg')
         option = st.selectbox("Pilih",("Luas","Volume")) 
     
         if (option == "Luas"):
@@ -218,7 +213,7 @@ with tab2:
                 st.snow()    
             
     elif (option == 'Bola'):
-        st.title ('Bola')
+        st.image ('Bola.jpeg')
         option = st.selectbox("Pilih",("Luas","Volume"))         
          
         if (option == "Luas"):
@@ -248,7 +243,7 @@ with tab2:
 
 #Menu Bangun Datar
     if (option == 'Persegi'):
-        st.title ('Persegi')
+        st.image ('Persegi.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
     
         if (option == "Luas"):
@@ -276,7 +271,7 @@ with tab2:
                 st.snow()
             
     elif (option == 'Persegi Panjang'):
-        st.title ('Persegi Panjang')
+        st.image ('Perpan.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
     
         if (option == "Luas"):
@@ -305,7 +300,7 @@ with tab2:
                 st.snow()
 
     elif (option == 'Segitiga Sama Sisi'):
-        st.title ('Segitiga Sama Sisi')
+        st.image ('Sesasi.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
         
         if (option == "Luas"):
@@ -333,7 +328,7 @@ with tab2:
                 st.snow()
 
     elif (option == 'Lingkaran'):
-        st.title ('Lingkaran')
+        st.image ('Ling.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
         
         if (option == "Luas"):
@@ -360,7 +355,7 @@ with tab2:
                 st.snow()
                 
     elif (option == 'Belah Ketupat'):
-        st.title ('Belah Ketupat')
+        st.image ('Belket.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
     
         if (option == "Luas"):
@@ -389,7 +384,7 @@ with tab2:
                 st.snow()
             
     elif (option== 'Layang-Layang'):
-        st.title ('Layang-Layang')
+        st.image ('Lalay.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
     
         if (option == "Luas"):
@@ -419,7 +414,7 @@ with tab2:
                 st.snow()
                 
     elif (option == 'Jajar Genjang'):
-        st.title ('Jajar Genjang')
+        st.image ('Jargen.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
     
         if (option == "Luas"):
@@ -449,7 +444,7 @@ with tab2:
                 st.snow()
                 
     elif (option == 'Trapesium'):
-        st.title ('Trapesium')
+        st.image ('Trap.jpeg')
         option = st.selectbox("Pilih",("Luas","Keliling"))
     
         if (option == "Luas"):
